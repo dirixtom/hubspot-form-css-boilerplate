@@ -1,0 +1,108 @@
+/* Form */
+.hs-form {}
+
+/* Form Field Wrapper */
+.hs-form .hs-form-field {}
+
+/* Descriptions */
+.hs-form .hs-field-desc {}
+
+/* Label */
+.hs-form label {}
+.hs-form .hs-form-field > label {}
+
+/* Input  */
+.hs-form input[type="text"],
+.hs-form input[type="password"], 
+.hs-form input[type="datetime"], 
+.hs-form input[type="datetime-local"], 
+.hs-form input[type="date"], 
+.hs-form input[type="month"], 
+.hs-form input[type="time"], 
+.hs-form input[type="week"], 
+.hs-form input[type="number"], 
+.hs-form input[type="email"], 
+.hs-form input[type="url"], 
+.hs-form input[type="search"], 
+.hs-form input[type="tel"], 
+.hs-form input[type="color"],
+.hs-form input[type="file"],
+.hs-form textarea,
+.hs-form select {}
+
+/* Input:focus  */
+.hs-form input[type="text"]:focus,
+.hs-form input[type="password"]:focus, 
+.hs-form input[type="datetime"]:focus, 
+.hs-form input[type="datetime-local"]:focus, 
+.hs-form input[type="date"]:focus, 
+.hs-form input[type="month"]:focus, 
+.hs-form input[type="time"]:focus, 
+.hs-form input[type="week"]:focus, 
+.hs-form input[type="number"]:focus, 
+.hs-form input[type="email"]:focus, 
+.hs-form input[type="url"]:focus, 
+.hs-form input[type="search"]:focus, 
+.hs-form input[type="tel"]:focus, 
+.hs-form input[type="color"]:focus,
+.hs-form input[type="file"]:focus,
+.hs-form textarea:focus,
+.hs-form select:focus {}
+
+/* Textarea */
+.hs-form textarea {}
+.hs-form textarea:focus {}
+
+/* Select */
+.hs-form select {}
+.hs-form select:focus {}
+
+/* Multi-select */
+.hs-form form.hs-form .hs-form-field ul.inputs-list {}
+
+.hs-form form.hs-form .hs-form-field ul.inputs-list li input {}
+.hs-form input[type="radio"] {}
+.hs-form input[type="checkbox"] {}
+
+/* Required */
+.hs-form input:focus:required:invalid, 
+.hs-form textarea:focus:required:invalid, 
+.hs-form select:focus:required:invalid {}
+
+.hs-form input:focus:required:invalid:focus, 
+.hs-form textarea:focus:required:invalid:focus, 
+.hs-form select:focus:required:invalid:focus {}
+
+/* Error message */
+.hs-form .hs-error-msgs label{}
+
+/* Placeholders */
+::-webkit-input-placeholder {}
+:-moz-placeholder {}
+::-moz-placeholder {}
+:-ms-input-placeholder {}
+
+/* fieldsets & wrappers */
+
+.hs-form .hs-form fieldset.form-columns-1 {}
+.hs-form .hs-form fieldset.form-columns-1 .hs-form-field {}
+
+.hs-form .hs-form fieldset.form-columns-2 {}
+.hs-form .hs-form fieldset.form-columns-2 .hs-form-field {}
+
+.hs-form .hs-form fieldset.form-columns-3 {}
+.hs-form .hs-form fieldset.form-columns-3 .hs-form-field {}
+
+/* Submit buttons */
+
+body .hs-button.primary,
+body input[type="submit"],
+body input[type="button"] {}
+
+body .hs-button.primary:hover,
+body input[type="submit"]:hover,
+body input[type="button"]:hover {}
+
+body .hs-button.primary:focus,
+body input[type="submit"]:focus,
+body input[type="button"]:focus {}
